@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card-image {
+   @apply relative;
+}
+
+.card-image-name {
+   @apply mt-[15px] font-poppins text-sm font-semibold lg:text-base;
+}
+
+.card-image-title {
+   @apply absolute -right-6 text-xs;
+}
